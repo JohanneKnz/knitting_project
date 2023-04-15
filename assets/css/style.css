@@ -25,6 +25,8 @@ h1, h2 {
     font-size: 280%;
 }
 
+/* navigation bar*/
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -52,4 +54,38 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* knitting image */
+
+#cover-text, #cover-text h2 {
+    color: #fff;
+
+}
+
+/*knitting-outer - think about adding, also need to add position for the image to keep the text box in line*/
+
+#knitting-image {
+    height: 600px;
+    width: 100%;
+    background: url () no-repeat center center;
+}
+
+#cover-text {
+    font-size: 130%;
+    letter-spacing: 4px;
+
+    width: 400px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgb(96, 157, 159, 0.5);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+
 }
