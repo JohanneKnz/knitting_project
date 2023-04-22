@@ -64,7 +64,7 @@ h1, h2 {
 
 }
 
-/*knitting-outer - think about adding, also need to add position for the image to keep the text box in line*/
+/*knitting-outer */
 
 #outer-cover {
     height: 360px;
@@ -106,18 +106,21 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
+    margin-left: 30px;
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
+    margin-left: 30px;
 }
 
 #center-about {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
+    margin-left: 30px;
 }
 
 /* footer */
@@ -162,32 +165,47 @@ h1, h2 {
 
 /* knit along */
 
+#knit-along-intro {
+    clear:left;
+    height: 400px;
+}
+
+#knit-along-right {
+    padding-top: 30px;
+    width: 45%;
+    float: right;
+    margin-right: 30px;
+}
+#knit-along-left {
+    padding-top: 30px;
+    width: 45%;
+    float: left;
+    margin-left: 30px;
+}
+
 .form-section {
     clear: left;
-    height: 900 px;
+    height: 800 px;
 }
-
-.form-section h2 {
-    color: #fff;
+#knitting-at-home {
+    height: 800px;
+    width: 100%;
+    background: url(../images/home-hobbies-knitting-threads-table.jpg) no-repeat right center;
 }
-
 .sign-up-knit-along {
-    margin: 150px 10% 0 0;
-    color: #fff;
-    background-color: #3a3a3a;
+    margin: 0 auto;
+    background-color: rgb(96, 157, 159, 0.5);
     max-width: 600px;
     position: relative;
-    left: 15%;
-    padding: 30px;
+    padding: 50px;
 }
 
 .text-input {
     background: transparent;
-    color: #fff;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fff;
+    border: 1px solid #3a3a3a;
     border-radius: 2px;
 
 }
@@ -203,7 +221,6 @@ h1, h2 {
     text-align: center;
     font-size: 100%;
     background-color: rgba(127, 255, 223, 0.694);
-    color: #fff;
     display: block;
 }
 
@@ -217,6 +234,28 @@ h1, h2 {
 .join-button:hover {
     background-color: #fff;
     color: rgba(127, 255, 223, 0.694);
+}
+
+/* tutorials */
+#how-to-videos {
+    clear:both;
+    height: 600px;
+    margin-left: 30px;
+}
+
+/* contact */
+
+.contact {
+    clear:left;
+    margin: 0 auto;
+    background-color: rgb(96, 157, 159, 0.5);
+    max-width: 400px;
+    position: relative;
+    padding: 50px;
+}
+
+.contact-form {
+    height: 200 px;
 }
 
 /* Media queries */
