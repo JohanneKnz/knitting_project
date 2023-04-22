@@ -29,7 +29,79 @@
             </ul>
         </nav>
     </header>
-    <section>Gallery</section>
+    <section class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="sign-up-knit-along">
+        <h2>Sign up to get notified for the next knit along project</h2>
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" class="text-input" required>
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" class="text-input" required>
+            <label for="email">Email Address</label>
+            <input id="email" name="email_address" type="email" class="text-input" required>
+            <hr>
+            <h3>Who do you want to knit for?</h3>
+            <ul>            
+                <li>
+                    <input type="checkbox" id="woman" name="object_preference" value="woman" required>
+                    <label for="woman">Woman</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="man" name="object_preference" value="man">
+                    <label for="man">Man</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="child" name="object_preference" value="child">
+                    <label for="child">Child</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="any" name="object_preference" value="any">
+                    <label for="any">No preference</label>
+                </li>
+            </ul>
+            <hr>
+            <h3>Level of difficulty:</h3>
+            <ul>
+                <li>
+                    <input type="radio" id="beginner" name="difficulty_preference" value="beginner" required>
+                    <label for="beginner">Beginner</label>
+                </li>
+                <li>
+                    <input type="radio" id="intermediate" name="difficulty_preference" value="intermediate" required>
+                    <label for="intermediate">Intermediate</label>
+                </li>
+                <li>
+                    <input type="radio" id="experienced" name="difficulty_preference" value="experienced" required>
+                    <label for="experienced">Experienced</label>
+                </li>
+                <li>
+                    <input type="radio" id="any" name="difficulty_preference" value="any" required>
+                    <label for="any">No preference</label>
+                </li>
+            </ul>
+            <hr>
+            <h3>Your prefered project type:</h3>
+            <ul>
+                <li>
+                    <input type="checkbox" id="sweater" name="project_preference" value="sweater"required>
+                    <label for="sweater">Sweater</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="jacket" name="project_preference" value="jacket">
+                    <label for="jacket">Jacket or cardigan</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="accessories" name="project_preference" value="accessories">
+                    <label for="accessories">Accessories</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="any" name="project_preference" value="any">
+                    <label for="any">No preference</label>
+                </li>
+                </ul>
+            <hr>
+            <input class="join-button" type="submit" value="Notify me for the next knit along!">
+        </form>
+    </section>
     <footer>
         <ul class="social-networks">
             <li>
