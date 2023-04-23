@@ -1,11 +1,69 @@
 # Knots and Loops
+![amiresponsive screenshot](/assets/images/amiresponsive.png)
+
 https://johanneknz.github.io/knitting_project/index.html
 
 This website was created as my first coding project with the Code Instetute. The purpose of the project is to demonstrate my understadning of HTML and CSS. The website is a fictional page for knitting projects, including pictures of completed projects, a posibility to sign up for knit along sessions, as well as a libabry of knitting tutorial videos demonstrating basic knitting techniques.
 
+## contents
+- [Knots and Loops](#knots-and-loops)
+  * [contents](#contents)
+  * [User Experience (UX)](#user-experience--ux-)
+    + [Initial Discussion](#initial-discussion)
+    + [Key information for the site](#key-information-for-the-site)
+    + [User Stories](#user-stories)
+      - [Client Goals](#client-goals)
+      - [First Time Visitor Goals](#first-time-visitor-goals)
+      - [Returning Visitor Goals](#returning-visitor-goals)
+      - [Frequent Visitor Goals](#frequent-visitor-goals)
+  * [Technologies used](#technologies-used)
+    + [Languages Used](#languages-used)
+    + [Frameworks, Libraries & Programs Used](#frameworks--libraries---programs-used)
+  * [Design](#design)
+    + [Colour scheme](#colour-scheme)
+    + [Imagery](#imagery)
+    + [Videos](#videos)
+    + [Responsiveness](#responsiveness)
+  * [Features](#features)
+    + [Home Page.](#home-page)
+      - [Welcome image](#welcome-image)
+      - [About Us.](#about-us)
+      - [Knit along section.](#knit-along-section)
+    + [Projects Page.](#projects-page)
+    + [Knit along page](#knit-along-page)
+    + [Tutorials Page](#tutorials-page)
+    + [Contact Us Page.](#contact-us-page)
+  * [Future Implementations.](#future-implementations)
+  * [Accessibility](#accessibility)
+  * [Deployment and local deployment](#deployment-and-local-deployment)
+    + [Deployment](#deployment)
+      - [Local Development](#local-development)
+        * [How to Fork](#how-to-fork)
+        * [How to Clone](#how-to-clone)
+  * [Testing](#testing)
+    + [W3C Validator](#w3c-validator)
+    + [Solved Bugs](#solved-bugs)
+    + [Lighthouse](#lighthouse)
+      - [Index Page](#index-page)
+      - [Projects Page](#projects-page)
+      - [Knit along Page](#knit-along-page)
+      - [Tutorials Page](#tutorials-page-1)
+      - [Contact us page](#contact-us-page)
+    + [Full Testing](#full-testing)
+      - [Links.](#links)
+      - [Forms.](#forms)
+  * [Credits](#credits)
+    + [Content](#content)
+    + [Media](#media)
+      - [Background Images](#background-images)
+  * [Acknowledgments](#acknowledgments)
+  * [Authors](#authors)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 ## User Experience (UX)
 ### Initial Discussion
-Knots and Loops is an online kniting project repository and that aims to inspire other knitters and organize knit along sessions. Knots and Loops also provides pictures of knitting projects, links to learning resources for beginners.
+Knots and Loops is an fictional online kniting project repository and that aims to inspire other knitters and organize knit along sessions. Knots and Loops also provides pictures of knitting projects, links to learning resources for beginners.
 
 The knit alongs are organized on social media, and anyone interested can sign up to receive a notification the next time a suitable knit along will start.
 
@@ -39,7 +97,7 @@ The knit alongs are organized on social media, and anyone interested can sign up
 HTML and CSS were used to create this website.
 
 ### Frameworks, Libraries & Programs Used
-Git - For version control.
+- Git - For version control.
 - Github - To save and store the files for the website.
 - Google Fonts - To import the fonts used on the website.
 - Font Awesome - For the iconography on the website.
@@ -97,7 +155,7 @@ This page allows the user to request a mentor and access videos on basic knittin
 This page opens in a new tab and allows users to submit a message to Knots and Loops. The form contains fields for the users name, email address, and message. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form.
 
 ## Future Implementations. 
-Use javascript to perform return to top function on project page. Use javascript to add a feature to vote for what type of project users want the next knit along to be. A mentor page - This would have a photo of the mentors together with a small bio. The page would match users with mentors who are availiable to assist people with their projects. A link to their instagram and/or YouTube page.
+Use javascript to perform return to top function on project page. Use javascript to add a feature to vote for what type of project users want the next knit along to be. A mentor page - This would have a photo of the mentors together with a small bio. The page would match users with mentors who are availiable to assist people with their projects. I would also like to add a link to their instagram and/or YouTube page.
 
 ## Accessibility 
 I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
@@ -149,6 +207,9 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 ### Solved Bugs
 The navbar would lose its alignment when on smaller devices, with the knit along link being oushed down to the following line, underneathe the other icons on the right side of the page. This did not make for a good user experience, and looked messy. Once I added a narrower margin in the media element for smller devices the navigation was alligned on one line on smaller screen.
 
+### Known Bugs
+The youtube videos in the tutorial page does not shift underneath eachother on all screensizes. This overlap is seems to be solved with some buffering, but it has been observed and not solved.
+
 ### Lighthouse
 I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
 
@@ -156,7 +217,20 @@ I used Lighthouse within the Chrome Developer Tools to allow me to test the perf
 Initial lighthouse testing suggested to serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption. I have now converted the logo and slide images to webp format using Birme.
 
 Final lighthouse testing:
--TBC
+
+![final lighthouse test index](/assets/images/lighthouseindex.png)
+
+#### Projects Page
+![final lighthouse test projects](/assets/images/lighthouseprojects.png)
+
+#### Knit along Page 
+![final lighthouse test knitalong](/assets/images/lighthouseknitalong.png)
+
+#### Tutorials Page
+![final lighthouse test tutorials](/assets/images/lighthousetutorials.png)
+
+#### Contact us page
+![final lighthouse test contact us](/assets/images/lighthousecontactus.png)
 
 ### Full Testing
 To fully test my website I performed the following testing using a number of browsers (google chrome, safari, firefox) and  I went through each page using google chrome developer tools to ensure that they responsive on all different screen sizes.
@@ -197,9 +271,12 @@ Content for the website was written by Johanne Knudtzon. Knots and Loops is a fi
 
 ### Media
 #### Background Images
-Background images have been sources from freepik.com and are the creative property of pvproductions.
+Background images have been sourced from freepik.com and are the creative property of pvproductions.
 
 All images used in the project page are pictures belonging to Johanne Knudtzon who gave permission for them to be used in this project.
+
+#### YouTube videos
+The YouTube videos have been sourced from garnstudio.com on YouTube. The code used was purpesfully the shared code provided by YouTube to ensure that the content is shared in a manner consistent with the creator.
 
 ## Acknowledgments
 I would like to acknowledge the following people who helped me along the way in completing my first milestone project:
