@@ -93,7 +93,7 @@ h1, h2 {
     background-color: rgb(96, 157, 159, 0.5);
 
     bottom: 30px;
-    right: 400px;
+    left: 300px;
 
     position: absolute;
 }
