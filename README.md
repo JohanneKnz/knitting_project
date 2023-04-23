@@ -3,19 +3,15 @@
 
 https://johanneknz.github.io/knitting_project/index.html
 
-This website was created as my first coding project with the Code Instetute. The purpose of the project is to demonstrate my understadning of HTML and CSS. The website is a fictional page for knitting projects, including pictures of completed projects, a posibility to sign up for knit along sessions, as well as a libabry of knitting tutorial videos demonstrating basic knitting techniques.
+This website was created as my first coding project with the Code Institute. The purpose of the project is to demonstrate my understanding of HTML and CSS. The website is a fictional page for knitting projects, including pictures of completed projects, a posibility to sign up for knit along sessions, as well as a libabry of knitting tutorials demonstrating basic knitting techniques.
 
-## contents
+## Contents
 - [Knots and Loops](#knots-and-loops)
-  * [contents](#contents)
+  * [Contents](#contents)
   * [User Experience (UX)](#user-experience--ux-)
     + [Initial Discussion](#initial-discussion)
     + [Key information for the site](#key-information-for-the-site)
     + [User Stories](#user-stories)
-      - [Client Goals](#client-goals)
-      - [First Time Visitor Goals](#first-time-visitor-goals)
-      - [Returning Visitor Goals](#returning-visitor-goals)
-      - [Frequent Visitor Goals](#frequent-visitor-goals)
   * [Technologies used](#technologies-used)
     + [Languages Used](#languages-used)
     + [Frameworks, Libraries & Programs Used](#frameworks--libraries---programs-used)
@@ -26,9 +22,6 @@ This website was created as my first coding project with the Code Instetute. The
     + [Responsiveness](#responsiveness)
   * [Features](#features)
     + [Home Page.](#home-page)
-      - [Welcome image](#welcome-image)
-      - [About Us.](#about-us)
-      - [Knit along section.](#knit-along-section)
     + [Projects Page.](#projects-page)
     + [Knit along page](#knit-along-page)
     + [Tutorials Page](#tutorials-page)
@@ -37,25 +30,14 @@ This website was created as my first coding project with the Code Instetute. The
   * [Accessibility](#accessibility)
   * [Deployment and local deployment](#deployment-and-local-deployment)
     + [Deployment](#deployment)
-      - [Local Development](#local-development)
-        * [How to Fork](#how-to-fork)
-        * [How to Clone](#how-to-clone)
   * [Testing](#testing)
     + [W3C Validator](#w3c-validator)
     + [Solved Bugs](#solved-bugs)
     + [Lighthouse](#lighthouse)
-      - [Index Page](#index-page)
-      - [Projects Page](#projects-page)
-      - [Knit along Page](#knit-along-page)
-      - [Tutorials Page](#tutorials-page-1)
-      - [Contact us page](#contact-us-page)
     + [Full Testing](#full-testing)
-      - [Links.](#links)
-      - [Forms.](#forms)
   * [Credits](#credits)
     + [Content](#content)
     + [Media](#media)
-      - [Background Images](#background-images)
   * [Acknowledgments](#acknowledgments)
   * [Authors](#authors)
 
@@ -63,7 +45,7 @@ This website was created as my first coding project with the Code Instetute. The
 
 ## User Experience (UX)
 ### Initial Discussion
-Knots and Loops is an fictional online kniting project repository and that aims to inspire other knitters and organize knit along sessions. Knots and Loops also provides pictures of knitting projects, links to learning resources for beginners.
+Knots and Loops is an fictional online kniting project repository and that aims to inspire other knitters and to organize knit along sessions for creatives to connect. Knots and Loops also provides pictures of knitting projects, links to learning resources for beginners and a possibility to request a mentor.
 
 The knit alongs are organized on social media, and anyone interested can sign up to receive a notification the next time a suitable knit along will start.
 
@@ -75,15 +57,15 @@ The knit alongs are organized on social media, and anyone interested can sign up
 ### User Stories
 #### Client Goals
 - To be able to view the site on a range of device sizes.
-- To make it easy for people with an interest in knitting to find insipration and connect with other knitters in the knit along sessions.
-- To make it clear for members what knitt alongs are planed.
-- To allow people to be able to contact other knitters to get assistance with their projects.
+- To make it easy for people with an interest in knitting to find insipration and connect with other creatives in the knit along sessions.
+- To make it clear for members what knit alongs are planed.
+- To assist people to get support with their projects.
 
 #### First Time Visitor Goals
 - I want to find inspiration for my next knitting project.
 - I want to connect with others who share an interest in knitting and take part in the knit alongs.
 - I want to be able to navigate the site easily to find information.
-- I want to be able to find their social media profiles.
+- I want to be able to find the Knots and Loops social media profiles.
 
 #### Returning Visitor Goals
 - I want to find up to date information on what the corrent knit along project is.
@@ -113,6 +95,7 @@ The website uses a palette of muted colours and blue, inspired by the calm colou
 Google Fonts was used for the following fonts:
 - Cinzel is used for headings on the site.
 - Roboto is used for the body text on the site.
+- Sans serif is used as a back-up font on the site.
 
 ### Imagery
 The project images are owned by the creator of the page. The background picture is a copyright free picture. I have credited this in the credits section.
@@ -281,7 +264,7 @@ The YouTube videos have been sourced from garnstudio.com on YouTube. The code us
 ## Acknowledgments
 I would like to acknowledge the following people who helped me along the way in completing my first milestone project:
 
-Graeme Taylor, my Code Institute Mentor.
+- Graeme Taylor, my Code Institute Mentor.
 
 
 ## Authors
