@@ -42,6 +42,9 @@ Git - For version control.
 - Google Fonts - To import the fonts used on the website.
 - Font Awesome - For the iconography on the website.
 - Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+- brime.net - To resize images to webp format.
+- freepik.com - To find background pictures.
+- YouTube - To find tutorial videos. 
 
 ## Design
 ### Colour scheme
@@ -153,8 +156,54 @@ Initial lighthouse testing suggested to serve images in next-gen formats. Lighth
 Final lighthouse testing:
 -TBC
 
-## Acknowledgements
+### Full Testing
+To fully test my website I performed the following testing using a number of browsers (google chrome, safari, firefox) and  I went through each page using google chrome developer tools to ensure that they responsive on all different screen sizes.
+
+#### Links.
+Test each link on the index page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+Test each link on the projects page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+Test each link on the knit along page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+Test each link on the tutorial page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+Test each link on the contact us page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate tab.
+
+#### Forms.
+
+Test the knit along form. 
+- I tried to submit the form without filling in any input fields. The form worked correctly and directed users to fill in the name field. 
+- I then filled in the name fields and tried to submit the form. Again the form worked correctly and directed the user to fill out the email field. 
+- I filled out the name and email forms and tried to submit the form. The formworked correctly and directed users to chose level of difficulty.
+- I filled in the level of dificulty and the preselected checkboxes to submit the form. The form then opens in the code instetute formdump to demonstrate the selctors have been coded correctly.
+
+Test the mentor form. 
+- I tried to submit the form without filling in any input fields. The form worked correctly and directed users to fill in the name field. 
+- I then filled in the name field and tried to submit the form. Again the form worked correctly and directed the user to fill out the email field.  
+I filled in the email field to submit the form. The form then opens in the code instetute formdump to demonstrate the selctors have been coded correctly.
+
+Test the contact us form. 
+- I tried to submit the form without filling in any input fields. The form worked correctly and directed users to fill in the name field. 
+- I then filled in the name field and tried to submit the form. Again the form worked correctly and directed the user to fill out the email field.  
+- I filled out the email field and tried to submit the form. Again the form worked correclty and directed the user to fill out the message field.
+I filled in the message field to submit the form. The form then opens in the code instetute formdump to demonstrate the selctors have been coded correctly.
+
+## Credits
+Code Used
+Tutorials from code institute.
+w3schools for input on how to use checkboxes and YouTube videos.
+
+### Content
+Content for the website was written by Johanne Knudtzon. Knots and Loops is a fictional name and concept.
+
+### Media
+#### Background Images
+Background images have been sources from freepik.com and are the creative property of pvproductions.
+
+All images used in the project page are pictures belonging to Johanne Knudtzon who gave permission for them to be used in this project.
+
+## Acknowledgments
+I would like to acknowledge the following people who helped me along the way in completing my first milestone project:
+
+Graeme Taylor, my Code Institute Mentor.
 
 
-Authors
+## Authors
 @johanneknz
