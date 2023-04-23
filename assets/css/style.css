@@ -16,6 +16,7 @@ body {
 h1, h2 {
     font-family: Cinzel, sans-serif;
     font-weight: 500;
+    font-size: 120%;
     letter-spacing: 4px;
     color: #3a3a3a;
 }
@@ -99,29 +100,52 @@ h1, h2 {
 
 /* About us */
 #about-us {
-    height: 600px;
+    clear: left;
+    height: 500px;
+}
+
+#about-us h1 {
+    text-align: center;
+    padding-top: 30px;
 }
 
 #left-about {
     padding-top: 30px;
-    width: 33%;
+    width: 45%;
     float: left;
     margin-left: 30px;
 }
 
 #right-about {
     padding-top: 30px;
-    width: 33%;
+    width: 45%;
     float: right;
     margin-left: 30px;
 }
 
-#center-about {
-    padding-top: 30px;
-    width: 33%;
-    margin: 0 auto;
-    margin-left: 30px;
+/* Knit along information on home page */
+
+#knit-along-information {
+    height: 250px;
 }
+
+#knit-along-information div {
+    color: #fff;
+    background-color: #3a3a3a;
+    line-height: 1.5;
+    width: 33%;
+    height: 250px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+}
+
+#knit-along-information h2 {
+    color: #fff;
+}
+
 
 /* footer */
 
@@ -167,7 +191,7 @@ h1, h2 {
 
 #knit-along-intro {
     clear:left;
-    height: 400px;
+    height: 600px;
 }
 
 #knit-along-right {
@@ -185,10 +209,10 @@ h1, h2 {
 
 .form-section {
     clear: left;
-    height: 800 px;
+    height: 900 px;
 }
 #knitting-at-home {
-    height: 800px;
+    height: 900px;
     width: 100%;
     background: url(../images/home-hobbies-knitting-threads-table.jpg) no-repeat right center;
 }
@@ -237,9 +261,25 @@ h1, h2 {
 }
 
 /* tutorials */
+
+#mentor {
+    height: 400px;
+    clear:left;
+    margin: 0 auto;
+    background-color: rgb(96, 157, 159, 0.5);
+    max-width: 400px;
+    position: relative;
+    padding: 50px;
+}
+
+.mentor-form {
+    height: 300px;
+}
+
 #how-to-videos {
-    clear:both;
+    clear:left;
     height: 600px;
+    padding-top: 30px;
     margin-left: 30px;
 }
 
@@ -255,7 +295,7 @@ h1, h2 {
 }
 
 .contact-form {
-    height: 200 px;
+    height: 100px;
 }
 
 /* Media queries */
@@ -283,11 +323,60 @@ h1, h2 {
 #photos {
     column-count: 3;
 }
+
+#how-to-videos {
+    height: 900px;
+    text-align: center;
+}
 }
 
 /* For small screen sizes from 800px wide and down */
 @media  screen and (max-width: 800px) {
+#logo { 
+    font-size: 180%;
+}
+#menu {
+    margin-left: 15px;
+}
+
+ #about-us {
+    height: 600px;
+}
+    
+#left-about {
+    width: 100%;
+    margin-left: 15px;
+}
+    
+#right-about {
+    width: 100%;
+    float: left;
+    margin-left: 15px;
+}
+
+#knit-along-information h2, h3, h4 {
+    font-size: 80%;
+}
+
 #photos {
     column-count: 2;
-}    
+}   
+#knit-along-intro {
+    height: 900px;
+}
+
+#knit-along-right {
+    width: 100%;
+    float: left;
+    margin-left: 15px;
+}
+
+#knit-along-left {
+    width: 100%;
+    margin-left: 15px;
+}
+
+.form-section {
+    height: 12000 px;
+}
 }

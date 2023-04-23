@@ -29,18 +29,20 @@
             </ul>
         </nav>
     </header>
-    <section>
-        <form>
+    <section id="mentor">
+         <form method="POST" action="https://formdump.codeinstitute.net/" class="mentor-form">
             <h1>Request a mentor</h1>
             <p>Connect with a mentor and get assistance with your project.</p>
-            <label></label>
-            <input>
-            <label></label>
-            <input>
-            <label></label>
-            <input>
+            <br>
+                <label for="fname">First Name</label>
+                <input id="fname" name="first_name" type="text" class="text-input" required>
+                <label for="lname">Last Name</label>
+                <input id="lname" name="last_name" type="text" class="text-input" required>
+                <label for="email">Email Address</label>
+                <input id="email" name="email_address" type="email" class="text-input" required>
+                <input class="join-button" type="submit" value="Request a mentor!">
         </form>
-    <section>
+    </section>
     <section id="how-to-videos">
         <h1>The basics - video resources</h1>
         <div>
