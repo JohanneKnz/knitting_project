@@ -301,12 +301,6 @@ h1, h2 {
 
 /* Media queries */
 
-/* For large to medium screens from 1200px wide and down */
-/*@media screen and (max-width: 1200px) {
-#    
-}
-*/
-
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
 #menu {
@@ -334,7 +328,7 @@ h1, h2 {
 /* For small screen sizes from 800px wide and down */
 @media  screen and (max-width: 800px) {
 #logo { 
-    font-size: 180%;
+    font-size: 100%;
 }
 #menu {
     margin-left: 15px;

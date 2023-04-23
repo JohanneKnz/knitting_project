@@ -1,4 +1,6 @@
 # Knots and Loops
+https://johanneknz.github.io/knitting_project/index.html
+
 This website was created as my first coding project with the Code Instetute. The purpose of the project is to demonstrate my understadning of HTML and CSS. The website is a fictional page for knitting projects, including pictures of completed projects, a posibility to sign up for knit along sessions, as well as a libabry of knitting tutorial videos demonstrating basic knitting techniques.
 
 ## User Experience (UX)
