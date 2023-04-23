@@ -287,6 +287,7 @@ h1, h2 {
 
 .contact {
     clear:left;
+    height: 300px;
     margin: 0 auto;
     background-color: rgb(96, 157, 159, 0.5);
     max-width: 400px;
@@ -295,7 +296,7 @@ h1, h2 {
 }
 
 .contact-form {
-    height: 100px;
+    padding-top: 15px;
 }
 
 /* Media queries */

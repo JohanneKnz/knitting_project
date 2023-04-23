@@ -138,6 +138,9 @@ The following issues were raised during my mid project meeting with my mentor:
 ### W3C Validator
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
+- h1 header on index page - W3C suggested to not use the h1 header as it was used in the page already. However, as the h1 header is used in the logo only, I disreagarded this, as the h1 header was used only once in the content of the page.
+- iframe instead of css on the tutorials page - W3S suggested to avoid using the ifram code, recomending to use css. As the code is sourced from YouTube, and I wanted to be consistent with the source of this content keeping with the origin of the videos, this was disregarded.
+
 ### Solved Bugs
 The navbar would lose its alignment when on smaller devices, with the knit along link being oushed down to the following line, underneathe the other icons on the right side of the page. This did not make for a good user experience, and looked messy. Once I added a narrower margin in the media element for smller devices the navigation was alligned on one line on smaller screen.
 
