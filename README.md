@@ -1,108 +1,157 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Knots and Loops
+This website was created as my first coding project with the Code Instetute. The purpose of the project is to demonstrate my understadning of HTML and CSS. The website is a fictional page for knitting projects, including pictures of completed projects, a posibility to sign up for knit along sessions, as well as a libabry of knitting tutorial videos demonstrating basic knitting techniques.
 
-Welcome Johanne Knudtzon,
+## User Experience (UX)
+### Initial Discussion
+Knots and Loops is an online kniting project repository and that aims to inspire other knitters and organize knit along sessions. Knots and Loops also provides pictures of knitting projects, links to learning resources for beginners.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The knit alongs are organized on social media, and anyone interested can sign up to receive a notification the next time a suitable knit along will start.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+### Key information for the site
+- Knitting inspiration
+- What is a knit along and how to take part
+- Resources for learning basic knitting techniques
 
-## Gitpod Reminders
+### User Stories
+#### Client Goals
+- To be able to view the site on a range of device sizes.
+- To make it easy for people with an interest in knitting to find insipration and connect with other knitters in the knit along sessions.
+- To make it clear for members what knitt alongs are planed.
+- To allow people to be able to contact other knitters to get assistance with their projects.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+#### First Time Visitor Goals
+- I want to find inspiration for my next knitting project.
+- I want to connect with others who share an interest in knitting and take part in the knit alongs.
+- I want to be able to navigate the site easily to find information.
+- I want to be able to find their social media profiles.
 
-`python3 -m http.server`
+#### Returning Visitor Goals
+- I want to find up to date information on what the corrent knit along project is.
+- I want to be able to easily contact other knitters with questions I might have.
 
-A blue button should appear to click: _Make Public_,
+#### Frequent Visitor Goals
+- I want to be able to plan my knitting projects and follow current trends.
 
-Another blue button should appear to click: _Open Browser_.
+## Technologies used
+### Languages Used
+HTML and CSS were used to create this website.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Frameworks, Libraries & Programs Used
+Git - For version control.
+- Github - To save and store the files for the website.
+- Google Fonts - To import the fonts used on the website.
+- Font Awesome - For the iconography on the website.
+- Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-A blue button should appear to click: _Make Public_,
+## Design
+### Colour scheme
+The website uses a palette of muted colours and blue, inspired by the calm colours of the scandinavian coast.
 
-Another blue button should appear to click: _Open Browser_.
+Google Fonts was used for the following fonts:
+- Cinzel is used for headings on the site.
+- Roboto is used for the body text on the site.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Imagery
+The project images are owned by the creator of the page. The background picture is a copyright free picture. I have credited this in the credits section.
 
-To log into the Heroku toolbelt CLI:
+### Videos
+The tutorial videos are linked from YouTube. I have credited this in the credtis section.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Responsiveness
+Adaptations were made to fit screens of different sizes.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Features
+The website is comprised of five pages, three of which are accessible from the navigation menu (home page, project page & knit along page). The fourth page is a library with videos on basic knitting techniques accessible from the knit along page and the home page. The fifth page is a contact us page where users can contact Knots and Loops.
 
-------
+All Pages on the website have:
 
-## Release History
+A responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is the Knots and Loops text. To the right of the navigation bar are the links to the websites pages (home, projects, and knit along). When viewing with mobile devices the navigation links appear below the logo text on the left.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+A footer which contains social media icon links to social media (Facebook, Instagram, Twitter and Youtube). There is also an envelope icon which takes the user to the contact us page. Icons were used to keep the footer clean and because they are universally recognisable.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Home Page.
+#### Welcome image
+The welcome image is a picture of yarn, keeping with the theme of the page and color scheme. The picture also includes a text book with a short description of Knots and Loops.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+#### About Us.
+This section is broken down into two subsections and reflects the purpose of the page and on knitting through knit alongs. On large screens the subsections are laid out side by side, however on mobile devices the subsections are stacked vertically.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+#### Knit along section.
+This section gives the user more information on the current knit along and how they can join future knit alongs with Knots and Koops.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Projects Page. 
+This takes the user to the project galary, where pictures of past projects are included. On large screens the projects are shown in 4 columns, on smaller screens the projects are shown in 3 or 2 columns, depending on the size of the screen.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Knit along page
+This page provides the user with more inforamtion about the knit along and contains a form where the user can join the next knit along and provide their project preferences. The form contains fields for the users name, email address, checkboxes indicating the users project prefernces and radio boxes for indicating the users level of experience. The user submits the form using the submit button. Users must fill in the name, email and indicate their level of experience with the radio buttons to be able to submit the form.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Tutorials Page
+This page allows the user to request a mentor and access videos on basic knitting techniques. The form contains fields for the users name, email address, and message. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Contact Us Page.
+This page opens in a new tab and allows users to submit a message to Knots and Loops. The form contains fields for the users name, email address, and message. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Future Implementations. 
+Use javascript to perform return to top function on project page. Use javascript to add a feature to vote for what type of project users want the next knit along to be. A mentor page - This would have a photo of the mentors together with a small bio. The page would match users with mentors who are availiable to assist people with their projects. A link to their instagram and/or YouTube page.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Accessibility 
+I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
+- Using semantic HTML.
+- Using descriptive alt attributes on images on the site.
+- Providing information for screen readers where there are icons used and no text - such as the footer icons.
+- Ensuring that there is a sufficient colour contrast throughout the site.
+- Ensuring menus are accessible by marking the current page as current for screen readers.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Deployment and local deployment
+### Deployment
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Log in (or sign up) to Github.
+- Find the repository for this project, knitting-project.
+- Click on the Settings link.
+- Click on the Pages link in the left hand side navigation bar.
+- In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+- Click Save. Your live Github Pages site is now deployed at the URL shown.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### Local Development
+##### How to Fork
+To fork the knitting-project repository:
+- Log in (or sign up) to Github.
+- Go to the repository for this project, JohanneKnz/knitting-project.
+- Click the Fork button in the top right corner.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+##### How to Clone
+To clone the knitting-project repository:
+- Log in (or sign up) to GitHub.
+- Go to the repository for this project, JohanneKz/knitting-project.
+- Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+- Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+- Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Testing
+Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
 
-------
+The following issues were raised during my mid project meeting with my mentor:
+- TBC
 
-## FAQ about the uptime script
 
-**Why have you added this script?**
+### W3C Validator
+The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Solved Bugs
+The navbar would lose its alignment when on smaller devices, with the knit along link being oushed down to the following line, underneathe the other icons on the right side of the page. This did not make for a good user experience, and looked messy. Once I added a narrower margin in the media element for smller devices the navigation was alligned on one line on smaller screen.
 
-**How will this affect me?**
+### Lighthouse
+I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+#### Index Page
+Initial lighthouse testing suggested to serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption. I have now converted the logo and slide images to webp format using Birme.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+Final lighthouse testing:
+-TBC
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Acknowledgements
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+Authors
+@johanneknz
