@@ -347,15 +347,19 @@ h1, h2, h3 {
 /* For small screen sizes from 800px wide and down */
 @media  screen and (max-width: 800px) {
 #logo { 
-    font-size: 100%;
+    font-size: 150%;
 }
 #menu {
-    margin-left: 5px;
     font-size: 75%;
 }
 
+#cover-text {
+    font-size: 75%;
+    width: 80%;
+}
+
  #about-us {
-    height: 600px;
+    height: 700px;
 }
     
 #left-about {
@@ -368,6 +372,15 @@ h1, h2, h3 {
     float: left;
     margin-left: 15px;
 }
+#knit-along-information {
+    height: 175px;
+}
+
+#knit-along-information div {
+    width: 100%;
+    line-height: 1;
+    height: 175px
+}
 
 #knit-along-information h3, h4, h5 {
     font-size: 80%;
@@ -377,7 +390,7 @@ h1, h2, h3 {
     column-count: 2;
 }   
 #knit-along-intro {
-    height: 900px;
+    height: 800px;
 }
 
 #knit-along-right {
@@ -392,6 +405,6 @@ h1, h2, h3 {
 }
 
 .form-section {
-    height: 12000 px;
+    height: 1200px;
 }
 }
