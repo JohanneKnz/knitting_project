@@ -13,7 +13,7 @@ body {
     color: #3a3a3a;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Cinzel, sans-serif;
     font-weight: 500;
     font-size: 120%;
@@ -104,7 +104,7 @@ h1, h2 {
     height: 350px;
 }
 
-#about-us h1 {
+#about-us h2 {
     text-align: center;
     padding-top: 30px;
 }
@@ -350,7 +350,7 @@ h1, h2 {
     margin-left: 15px;
 }
 
-#knit-along-information h2, h3, h4 {
+#knit-along-information h3, h4, h5 {
     font-size: 80%;
 }
 
