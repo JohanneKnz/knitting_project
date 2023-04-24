@@ -60,7 +60,7 @@ h1, h2, h3 {
 
 /* knitting image */
 
-#cover-text, #cover-text h2 {
+#cover-text, #cover-text h2, h3 {
     color: #fff;
 
 }
@@ -105,9 +105,15 @@ h1, h2, h3 {
 }
 
 #about-us h2 {
+    color: #3a3a3a;
     text-align: center;
     padding-top: 30px;
 }
+
+#about-us h3 {
+    color: #3a3a3a;
+}
+
 
 #left-about {
     padding-top: 30px;

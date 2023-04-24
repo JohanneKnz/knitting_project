@@ -41,8 +41,6 @@ This website was created as my first coding project with the Code Institute. The
   * [Acknowledgments](#acknowledgments)
   * [Authors](#authors)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 ## User Experience (UX)
 ### Initial Discussion
 Knots and Loops is an fictional online kniting project repository and that aims to inspire other knitters and to organize knit along sessions for creatives to connect. Knots and Loops also provides pictures of knitting projects, links to learning resources for beginners and a possibility to request a mentor.
@@ -87,6 +85,7 @@ HTML and CSS were used to create this website.
 - brime.net - To resize images to webp format.
 - freepik.com - To find background pictures.
 - YouTube - To find tutorial videos. 
+- <a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a>
 
 ## Design
 ### Colour scheme
@@ -180,11 +179,11 @@ Testing was ongoing throughout the entire build. I utilised Chrome developer too
 The following issues were raised during my mid project meeting with my mentor:
 - TBC
 
-
 ### W3C Validator
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
-- h1 header on index page - W3C suggested to not use the h1 header as it was used in the page already. However, as the h1 header is used in the logo only, I disreagarded this, as the h1 header was used only once in the content of the page.
+Initial testing:
+- h1 header on index page - W3C suggested to not use the h1 header as it was used in the page already.
 - iframe instead of css on the tutorials page - W3S suggested to avoid using the ifram code, recomending to use css. As the code is sourced from YouTube, and I wanted to be consistent with the source of this content keeping with the origin of the videos, this was disregarded.
 
 ### Solved Bugs
@@ -245,7 +244,7 @@ Test the contact us form.
 I filled in the message field to submit the form. The form then opens in the code instetute formdump to demonstrate the selctors have been coded correctly.
 
 ## Credits
-Code Used
+### Code Used
 Tutorials from code institute.
 w3schools for input on how to use checkboxes and YouTube videos.
 
