@@ -351,6 +351,7 @@ h1, h2, h3 {
 }
 #menu {
     font-size: 75%;
+    margin-left: 15px;
 }
 
 #cover-text {
@@ -404,7 +405,11 @@ h1, h2, h3 {
     margin-left: 15px;
 }
 
+.sign-up-knit-along h2, h3{
+    font-size: 100%;
+}
+
 .form-section {
-    height: 1200px;
+    height: 1400px;
 }
 }
