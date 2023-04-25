@@ -177,7 +177,11 @@ To clone the knitting-project repository:
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
 
 The following issues were raised during my mid project meeting with my mentor:
-- TBC
+- Gap widths on certain pages leaves too much space between sections, especially on certain screen sizes. 
+- The checkboxes in the knit along form should be deselected to confirm with best practise. With pre-selected checkboxes the user has to deselect and select their input.
+- The input field in the contact us form should be changed to a textarea field to allow for longer messages in a better way. 
+- The YouTube videos on the tutorials page are in iframe format. 
+- Additional media element could be added for very small screens, thus making the specific code for these smaller screens more tailored.
 
 ### W3C Validator
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
@@ -188,6 +192,8 @@ Initial testing:
 
 ### Solved Bugs
 The navbar would lose its alignment when on smaller devices, with the knit along link being oushed down to the following line, underneathe the other icons on the right side of the page. This did not make for a good user experience, and looked messy. Once I added a narrower margin in the media element for smller devices the navigation was alligned on one line on smaller screen.
+
+Responsiveness on small screens.
 
 ### Known Bugs
 The youtube videos in the tutorial page does not shift underneath eachother on all screensizes. This overlap is seems to be solved with some buffering, but it has been observed and not solved.

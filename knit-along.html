@@ -11,10 +11,12 @@
     <title>Knots and Loops</title>
 </head>
 <body>
+     <!--Logo: Page title displays as link for homepage-->
     <header>
         <a href="index.html">
             <h1 id="logo">Knots and Loops</h1>
         </a>
+        <!-- Navigation menu: Displays as links with the active page underlined -->
         <nav>
             <ul id="menu">
                 <li>
@@ -29,6 +31,7 @@
             </ul>
         </nav>
     </header>
+    <!--Knit along introduction: Describes the knit alongs, how to join and indicates availiable support material (clickable link included in bold text)-->
     <section id="knit-along-intro">
         <div id="knit-along-left">
             <h2>What is a knit along?</h2>
@@ -49,9 +52,12 @@
                 <p>If you need support with your knit along project or have general questions about knitting, check out out our <strong><a href="tutorials.html">tutorials</a></strong> page, where you can also request to be matched with a mentor (subject to availiability).</p>
             </div>
     </section>
+    <!--Knit along sign-up section with background image-->
     <section id="knitting-at-home" class="form-section">
+        <!--Knit along form: Allows users to sign up to get notified for future knit alongs, posts resonses-->
         <form method="POST" action="https://formdump.codeinstitute.net/" class="sign-up-knit-along">
         <h2>Sign up to get notified for the next knit along project</h2>
+        <!--User contact information: Requires input-->
             <label for="fname">First Name</label>
             <input id="fname" name="first_name" type="text" class="text-input" required>
             <label for="lname">Last Name</label>
@@ -60,6 +66,7 @@
             <input id="email" name="email_address" type="email" class="text-input" required>
             <br>
             <h3>Who do you want to knit for?</h3>
+            <!--Project preference checkboxes: Allows user to select what type of project they are interested in, not required, unchecked-->
             <ul>            
                 <li>
                     <input type="checkbox" id="woman" name="object_preference" value="woman">
@@ -74,12 +81,13 @@
                     <label for="child">Child</label>
                 </li>
                 <li>
-                    <input type="checkbox" id="object-any" name="object_preference" value="object-any" checked>
+                    <input type="checkbox" id="object-any" name="object_preference" value="object-any">
                     <label for="object-any">No preference</label>
                 </li>
             </ul>
             <br>
             <h3>Level of difficulty:</h3>
+            <!--Level of experience: Radio input for users to indicate the level of difficulty the are interested in, required-->
             <ul>
                 <li>
                     <input type="radio" id="beginner" name="difficulty_preference" value="beginner" required>
@@ -100,6 +108,7 @@
             </ul>
             <br>
             <h3>Your prefered project type:</h3>
+            <!--Project type preference: Users indicate type of project they are interested in, not required, unchecked-->
             <ul>
                 <li>
                     <input type="checkbox" id="sweater" name="project_preference" value="sweater">
@@ -114,7 +123,7 @@
                     <label for="accessories">Accessories</label>
                 </li>
                 <li>
-                    <input type="checkbox" id="project-any" name="project_preference" value="project-any" checked>
+                    <input type="checkbox" id="project-any" name="project_preference" value="project-any">
                     <label for="project-any">No preference</label>
                 </li>
                 </ul>
@@ -122,7 +131,8 @@
             <input class="join-button" type="submit" value="Keep me in the loop!">
         </form>
     </section>
-    <footer>
+    <!--Footer: Links opening in new tab, depicting as icons for social media (known logos) and mail (for contact us page)-->
+     <footer>
         <ul class="social-networks">
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
