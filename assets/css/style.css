@@ -376,25 +376,19 @@ h1, h2, h3 {
 }
 #menu {
     font-size: 75%;
-    margin-left: 5px;
-}
-
-#cover-text {
-    font-size: 75%;
-    width: 80%;
-}
-
- #about-us {
-    height: 700px;
 }
     
+#about-us {
+    height: 500px;
+}
+
 #left-about {
-    width: 100%;
+    width: 95%;
     margin-left: 15px;
 }
     
 #right-about {
-    width: 100%;
+    width: 95%;
     float: left;
     margin-left: 15px;
 }
@@ -415,18 +409,15 @@ h1, h2, h3 {
 #photos {
     column-count: 2;
 }   
-#knit-along-intro {
-    height: 800px;
-}
 
 #knit-along-right {
-    width: 100%;
+    width: 95%;
     float: left;
     margin-left: 15px;
 }
 
 #knit-along-left {
-    width: 100%;
+    width: 95%;
     margin-left: 15px;
 }
 
@@ -434,11 +425,31 @@ h1, h2, h3 {
     font-size: 100%;
 }
 
-.form-section {
-    height: 1500px;
-}
-
 .social-networks i {
     font-size: 100%;
+}
+}
+
+/* For very small screen sizes from 800px wide and down */
+@media  screen and (max-width: 400px) {
+#menu {
+    font-size: 75%;
+    margin-left: 5px;
+}
+
+#cover-text {
+    font-size: 75%;
+    width: 80%;
+}
+
+#about-us {
+    height: 700px;
+}
+
+#knit-along-intro {
+    height: 900px;
+}
+.form-section {
+    height: 1500px;
 }
 }
