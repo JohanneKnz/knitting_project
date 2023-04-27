@@ -1,5 +1,5 @@
 # Knots and Loops
-![amiresponsive screenshot](/assets/images/amiresponsive.png)
+![amiresponsive screenshot](/assets/images/readmeimages/amiresponsive_final.png)
 
 https://johanneknz.github.io/knitting_project/index.html
 
@@ -111,30 +111,45 @@ The website is comprised of five pages, three of which are accessible from the n
 All Pages on the website have:
 
 A responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is the Knots and Loops text. To the right of the navigation bar are the links to the websites pages (home, projects, and knit along). When viewing with mobile devices the navigation links appear below the logo text on the left.
+![navigation menu](/assets/images/readmeimages/navigationmenu.png)
 
 A footer which contains social media icon links to social media (Facebook, Instagram, Twitter and Youtube). There is also an envelope icon which takes the user to the contact us page. Icons were used to keep the footer clean and because they are universally recognisable.
+![footer](/assets/images/readmeimages/footer.png)
 
 ### Home Page.
-#### Welcome image
+#### Welcome image and about us
+![index](/assets/images/readmeimages/index.png)
 The welcome image is a picture of yarn, keeping with the theme of the page and color scheme. The picture also includes a text book with a short description of Knots and Loops.
 
-#### About Us.
-This section is broken down into two subsections and reflects the purpose of the page and on knitting through knit alongs. On large screens the subsections are laid out side by side, however on mobile devices the subsections are stacked vertically.
+This section is broken down into two columns of text and reflects the purpose of the page and on knitting through knit alongs. On large screens the subsections are laid out side by side, however on mobile devices the subsections are stacked vertically. Links to pages relevant to the content is inluced in the text, differentiated in bold.
 
 #### Knit along section.
+![knit along times](/assets/images/readmeimages/index_knitalong_timeline.png)
 This section gives the user more information on the current knit along and how they can join future knit alongs with Knots and Koops.
 
 ### Projects Page. 
+![projects](/assets/images/readmeimages/projects.png)
 This takes the user to the project galary, where pictures of past projects are included. On large screens the projects are shown in 4 columns, on smaller screens the projects are shown in 3 or 2 columns, depending on the size of the screen.
 
 ### Knit along page
-This page provides the user with more inforamtion about the knit along and contains a form where the user can join the next knit along and provide their project preferences. The form contains fields for the users name, email address, checkboxes indicating the users project prefernces and radio boxes for indicating the users level of experience. The user submits the form using the submit button. Users must fill in the name, email and indicate their level of experience with the radio buttons to be able to submit the form.
+![knit along introduction](/assets/images/readmeimages/knitalong.png)
+This page provides the user with more inforamtion about the knit along and contains a form where the user can join the next knit along and provide their project preferences. 
+
+![knit along form empty](/assets/images/readmeimages/knitalong_form_empty.png)
+The form contains fields for the users name, email address, checkboxes indicating the users project prefernces and radio boxes for indicating the users level of experience. The form responds to the curser hovering over the fields, and the background changes to white when active.
+![knit along form filled](/assets/images/readmeimages/knitalong_form_filled.png)
+The user submits the form using the submit button. Users must fill in the name, email and indicate their level of experience with the radio buttons to be able to submit the form.
 
 ### Tutorials Page
-This page allows the user to request a mentor and access videos on basic knitting techniques. The form contains fields for the users name, email address, and message. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form.
+This page allows the user to request a mentor and access videos on basic knitting techniques. The form contains fields for the users name, email address, and message. The form responds to the curser hovering over the fields, and the background changes to white when active. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form.
+![mentor form](/assets/images/readmeimages/tutorials_form.png)
+The videos are YouTube videos, which can be played by clicking on the depicted video. The videos are instructional and without sound from the content creator. The videos allow the user to access YouTube.
+![tutorial videos](/assets/images/readmeimages/tutorials_videos.png)
 
 ### Contact Us Page.
-This page opens in a new tab and allows users to submit a message to Knots and Loops. The form contains fields for the users name, email address, and message. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form.
+![contact us form](/assets/images/readmeimages/contactus_form.png)
+This page opens in a new tab and allows users to submit a message to Knots and Loops. The form contains fields for the users name, email address, and message. The form responds to the curser hovering over the fields, and the background changes to white when active. The user submits the form using the submit button. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form.
+![contact us form filled](/assets/images/readmeimages/contactus_form_filled.png)
 
 ## Future Implementations. 
 Use javascript to perform return to top function on project page. Use javascript to add a feature to vote for what type of project users want the next knit along to be. A mentor page - This would have a photo of the mentors together with a small bio. The page would match users with mentors who are availiable to assist people with their projects. I would also like to add a link to their instagram and/or YouTube page.
@@ -190,8 +205,12 @@ The following issues were raised during my mid project meeting with my mentor:
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
 Initial testing:
-- h1 header on index page - W3C suggested to not use the h1 header as it was used in the page already.
-- iframe instead of css on the tutorials page - W3S suggested to avoid using the ifram code, recomending to use css. As the code is sourced from YouTube, and I wanted to be consistent with the source of this content keeping with the origin of the videos, this was disregarded.
+- h1 header on index page - W3C suggested to not use the h1 header as it was used in the page already. This was changed to h2 header.
+- iframe instead of css on the tutorials page - W3S suggested to avoid using the ifram code, recomending to use css. As the code is sourced from YouTube, and I wanted to be consistent with the source of this content keeping with the origin of the videos, this was disregarded. This was changed to object.
+
+![W3C index](/assets/images/readmeimages/w3c_index.png)
+![W3C projects](/assets/images/readmeimages/w3c_projects.png)
+![W3C contact us](/assets/images/readmeimages/w3c_contactsus.png)
 
 ### Solved Bugs
 The navbar would lose its alignment when on smaller devices, with the knit along link being oushed down to the following line, underneathe the other icons on the right side of the page. This did not make for a good user experience, and looked messy. Once I added a narrower margin in the media element for smaller devices the navigation was alligned on one line on smaller screen.
@@ -213,22 +232,22 @@ Initial lighthouse testing suggested to serve images in next-gen formats. Lighth
 
 Final lighthouse testing:
 
-![final lighthouse test index](/assets/images/lighthouseindex.png)
+![final lighthouse test index](/assets/images/readmeimages/lighthouse_final_index.png)
 
 #### Projects Page
-![final lighthouse test projects](/assets/images/lighthouseprojects.png)
+![final lighthouse test projects](/assets/images/readmeimages/lighthouse_final_projects.png)
 
 #### Knit along Page 
-![final lighthouse test knitalong](/assets/images/lighthouseknitalong.png)
+![final lighthouse test knitalong](/assets/images/readmeimages/lighthouse_final_knitalong.png)
 
 #### Tutorials Page
-![final lighthouse test tutorials](/assets/images/lighthousetutorials.png)
+![final lighthouse test tutorials](/assets/images/readmeimages/lighthouse_final_tutorials.png)
 
 #### Contact us page
-![final lighthouse test contact us](/assets/images/lighthousecontactus.png)
+![final lighthouse test contact us](/assets/images/readmeimages/lighthouse_final_contactus.png)
 
 ### Full Testing
-To fully test my website I performed the following testing using a number of browsers (google chrome, safari, firefox) and  I went through each page using google chrome developer tools to ensure that they responsive on all different screen sizes.
+To fully test my website I performed the following testing using a number of browsers (google chrome, safari, firefox) and on an MacBook Air and iPhone 13 mini and  I went through each page using google chrome developer tools to ensure that they responsive on all different screen sizes.
 
 #### Links.
 Test each link on the index page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
