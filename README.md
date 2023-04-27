@@ -210,19 +210,21 @@ Initial testing:
 
 ![W3C index](/assets/images/readmeimages/w3c_index.png)
 ![W3C projects](/assets/images/readmeimages/w3c_projects.png)
+![W3C knit along](/assets/images/readmeimages/w3c_knitalong.png)
 ![W3C contact us](/assets/images/readmeimages/w3c_contactsus.png)
+![W3C tutorials](/assets/images/readmeimages/w3c_tutorials.png)
 
 ### Solved Bugs
 The navbar would lose its alignment when on smaller devices, with the knit along link being oushed down to the following line, underneathe the other icons on the right side of the page. This did not make for a good user experience, and looked messy. Once I added a narrower margin in the media element for smaller devices the navigation was alligned on one line on smaller screen.
 
 The responsiveness on very small screens presented issues, as the height on the sections would be too long or not long enough depending on the device. After some testing and discussing it with my mentor, I added a fourth media screen for screens under 400px. This allowed me more flexibility and control over the sections, which were tested in the developer tool on several screen sizes.
 
-The YouTube videos were initially coded as iFrames, as this was the suggested code from YouTube. The W3S validator sugggested to not use iFrames. Using objects instead was suggested by my mentor, and this was implimeted based on code from slack in refernce to YouTube. The credits for this code is listed in the credits section.
-
 ### Known Bugs
 The project page is repoted to have a slow responsiveness. This is due to not having fixed width on the images. As the page is coded to be responsive by adapting columns from 4 columns to 3 columns to 2 columns, I did not specify width. The bug was not fixed, but could possibly be fixed with a query or more media screens.
 
 The in-text links are not bolded on firefox browsers. A future fix could be to add an alternate menu, or further link attributes. This bug was not fixed, and is showing on firefow browsers.
+
+The YouTube videos were initially coded as iFrames, as this was the suggested code from YouTube. The W3S validator sugggested to not use iFrames. Using objects instead was suggested by my mentor, and this was implimeted based on code from slack in reference to YouTube. The credits for this code is listed in the credits section. The bug fix resulted in errors shown in the W3C testing, this bug was not fixed.
 
 ### Lighthouse
 I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
