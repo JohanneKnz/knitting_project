@@ -6,6 +6,9 @@
     border: none;
 }
 
+p a {
+    font-weight: 350;
+}
 
 body {
     font-family: Roboto, sans-serif;
