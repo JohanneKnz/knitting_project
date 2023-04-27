@@ -313,7 +313,7 @@ h1, h2, h3 {
 
 #how-to-videos {
     clear:left;
-    height: 600px;
+    height: 350px;
     padding-top: 30px;
     margin-left: 30px;
 }
@@ -339,11 +339,11 @@ h1, h2, h3 {
 /* For large screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px){
 #knit-along-intro {
-    height: 600px;
+    height: 450px;
 }
 
 #how-to-videos {
-    height: 900px;
+    height: 600px;
     text-align: center;
 }
 
@@ -367,6 +367,14 @@ h1, h2, h3 {
     column-count: 3;
 }
 
+#knit-along-intro {
+    height: 500px;
+}
+
+#how-to-videos {
+    height: 800px;
+    text-align: center;
+}
 }
 
 /* For small screen sizes from 800px wide and down */
@@ -392,6 +400,11 @@ h1, h2, h3 {
     float: left;
     margin-left: 15px;
 }
+
+#knit-along-intro {
+    height: 600px;
+}
+
 #knit-along-information {
     height: 175px;
 }
@@ -430,11 +443,12 @@ h1, h2, h3 {
 }
 }
 
-/* For very small screen sizes from 800px wide and down */
+
+/* For very small screen sizes from 400px wide and down */
 @media  screen and (max-width: 400px) {
 #menu {
     font-size: 75%;
-    margin-left: 5px;
+    margin-left: 15px;
 }
 
 #cover-text {
@@ -451,5 +465,10 @@ h1, h2, h3 {
 }
 .form-section {
     height: 1500px;
+}
+
+#how-to-videos {
+    height: 850px;
+    text-align: center;
 }
 }

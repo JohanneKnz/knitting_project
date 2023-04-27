@@ -139,6 +139,8 @@ This page opens in a new tab and allows users to submit a message to Knots and L
 ## Future Implementations. 
 Use javascript to perform return to top function on project page. Use javascript to add a feature to vote for what type of project users want the next knit along to be. A mentor page - This would have a photo of the mentors together with a small bio. The page would match users with mentors who are availiable to assist people with their projects. I would also like to add a link to their instagram and/or YouTube page.
 
+Use javascript to make the checkboxes in the knit along form required.
+
 ## Accessibility 
 I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
 - Using semantic HTML.
@@ -177,11 +179,12 @@ To clone the knitting-project repository:
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
 
 The following issues were raised during my mid project meeting with my mentor:
-- Gap widths on certain pages leaves too much space between sections, especially on certain screen sizes. 
-- The checkboxes in the knit along form should be deselected to confirm with best practise. With pre-selected checkboxes the user has to deselect and select their input.
-- The input field in the contact us form should be changed to a textarea field to allow for longer messages in a better way. 
-- The YouTube videos on the tutorials page are in iframe format. 
-- Additional media element could be added for very small screens, thus making the specific code for these smaller screens more tailored.
+- Gap widths on certain pages leaves too much space between sections, especially on certain screen sizes. This was resolved by adding a fourth media screen and tailoring the length of the sections in each media screen as needed.
+- The checkboxes in the knit along form should be deselected to confirm with best practise. With pre-selected checkboxes the user has to deselect and select their input. The checked attribute was removed from the checkboxes. A future implimentation will be to add javascript to the checkboxes to make it required to select at least one.
+- The input field in the contact us form should be changed to a textarea field to allow for longer messages in a better way. This was added.
+- The background for the form input fields should be white when writing text, so the text is easier to read for the users. This was amended with adding a focus pseodo class, making the background fields white when the user is typing.
+- The YouTube videos on the tutorials page are in iframe format. Best practise would be to use different code. The iFrames were changed to objects.
+- Additional media element could be added for very small screens, thus making the specific code for these smaller screens more tailored. This was added, also in association with the gap width as detailed above.
 
 ### W3C Validator
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
@@ -191,12 +194,16 @@ Initial testing:
 - iframe instead of css on the tutorials page - W3S suggested to avoid using the ifram code, recomending to use css. As the code is sourced from YouTube, and I wanted to be consistent with the source of this content keeping with the origin of the videos, this was disregarded.
 
 ### Solved Bugs
-The navbar would lose its alignment when on smaller devices, with the knit along link being oushed down to the following line, underneathe the other icons on the right side of the page. This did not make for a good user experience, and looked messy. Once I added a narrower margin in the media element for smller devices the navigation was alligned on one line on smaller screen.
+The navbar would lose its alignment when on smaller devices, with the knit along link being oushed down to the following line, underneathe the other icons on the right side of the page. This did not make for a good user experience, and looked messy. Once I added a narrower margin in the media element for smaller devices the navigation was alligned on one line on smaller screen.
 
-Responsiveness on small screens.
+The responsiveness on very small screens presented issues, as the height on the sections would be too long or not long enough depending on the device. After some testing and discussing it with my mentor, I added a fourth media screen for screens under 400px. This allowed me more flexibility and control over the sections, which were tested in the developer tool on several screen sizes.
+
+The YouTube videos were initially coded as iFrames, as this was the suggested code from YouTube. The W3S validator sugggested to not use iFrames. Using objects instead was suggested by my mentor, and this was implimeted based on code from slack in refernce to YouTube. The credits for this code is listed in the credits section.
 
 ### Known Bugs
-The youtube videos in the tutorial page does not shift underneath eachother on all screensizes. This overlap is seems to be solved with some buffering, but it has been observed and not solved.
+The project page is repoted to have a slow responsiveness. This is due to not having fixed width on the images. As the page is coded to be responsive by adapting columns from 4 columns to 3 columns to 2 columns, I did not specify width. The bug was not fixed, but could possibly be fixed with a query or more media screens.
+
+The in-text links are not bolded on firefox browsers. A future fix could be to add an alternate menu, or further link attributes. This bug was not fixed, and is showing on firefow browsers.
 
 ### Lighthouse
 I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
@@ -251,8 +258,9 @@ I filled in the message field to submit the form. The form then opens in the cod
 
 ## Credits
 ### Code Used
-Tutorials from code institute.
-w3schools for input on how to use checkboxes and YouTube videos.
+- Tutorials from code institute.
+- w3schools for input on how to use checkboxes and YouTube videos.
+- prod3v3loper for his code snippet on how to add YouTube videos in objects (https://stackoverflow.com/questions/18726480/embed-html5-youtube-video-without-iframe#:~:text=Because%20of%20the%20GDPR%20it,also%20use%20the%20embed%20link)
 
 ### Content
 Content for the website was written by Johanne Knudtzon. Knots and Loops is a fictional name and concept.
@@ -268,7 +276,6 @@ The YouTube videos have been sourced from garnstudio.com on YouTube. The code us
 
 ## Acknowledgments
 I would like to acknowledge the following people who helped me along the way in completing my first milestone project:
-
 - Graeme Taylor, my Code Institute Mentor.
 
 
