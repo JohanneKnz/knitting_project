@@ -111,44 +111,63 @@ The website is comprised of five pages, three of which are accessible from the n
 All Pages on the website have:
 
 A responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is the Knots and Loops text. To the right of the navigation bar are the links to the websites pages (home, projects, and knit along). When viewing with mobile devices the navigation links appear below the logo text on the left.
+
 ![navigation menu](/assets/images/readmeimages/navigationmenu.png)
 
 A footer which contains social media icon links to social media (Facebook, Instagram, Twitter and Youtube). There is also an envelope icon which takes the user to the contact us page. Icons were used to keep the footer clean and because they are universally recognisable.
+
 ![footer](/assets/images/readmeimages/footer.png)
 
 ### Home Page.
 #### Welcome image and about us
+
 ![index](/assets/images/readmeimages/index.png)
+
 The welcome image is a picture of yarn, keeping with the theme of the page and color scheme. The picture also includes a text book with a short description of Knots and Loops.
 
 This section is broken down into two columns of text and reflects the purpose of the page and on knitting through knit alongs. On large screens the subsections are laid out side by side, however on mobile devices the subsections are stacked vertically. Links to pages relevant to the content is inluced in the text, differentiated in bold.
 
 #### Knit along section.
+
 ![knit along times](/assets/images/readmeimages/index_knitalong_timeline.png)
+
 This section gives the user more information on the current knit along and how they can join future knit alongs with Knots and Koops.
 
 ### Projects Page. 
+
 ![projects](/assets/images/readmeimages/projects.png)
+
 This takes the user to the project galary, where pictures of past projects are included. On large screens the projects are shown in 4 columns, on smaller screens the projects are shown in 3 or 2 columns, depending on the size of the screen.
 
 ### Knit along page
+
 ![knit along introduction](/assets/images/readmeimages/knitalong.png)
+
 This page provides the user with more inforamtion about the knit along and contains a form where the user can join the next knit along and provide their project preferences. 
 
 ![knit along form empty](/assets/images/readmeimages/knitalong_form_empty.png)
+
 The form contains fields for the users name, email address, checkboxes indicating the users project prefernces and radio boxes for indicating the users level of experience. The form responds to the curser hovering over the fields, and the background changes to white when active.
+
 ![knit along form filled](/assets/images/readmeimages/knitalong_form_filled.png)
+
 The user submits the form using the submit button. Users must fill in the name, email and indicate their level of experience with the radio buttons to be able to submit the form.
 
 ### Tutorials Page
 This page allows the user to request a mentor and access videos on basic knitting techniques. The form contains fields for the users name, email address, and message. The form responds to the curser hovering over the fields, and the background changes to white when active. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form.
+
 ![mentor form](/assets/images/readmeimages/tutorials_form.png)
+
 The videos are YouTube videos, which can be played by clicking on the depicted video. The videos are instructional and without sound from the content creator. The videos allow the user to access YouTube.
+
 ![tutorial videos](/assets/images/readmeimages/tutorials_videos.png)
 
 ### Contact Us Page.
+
 ![contact us form](/assets/images/readmeimages/contactus_form.png)
+
 This page opens in a new tab and allows users to submit a message to Knots and Loops. The form contains fields for the users name, email address, and message. The form responds to the curser hovering over the fields, and the background changes to white when active. The user submits the form using the submit button. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form.
+
 ![contact us form filled](/assets/images/readmeimages/contactus_form_filled.png)
 
 ## Future Implementations. 
@@ -201,30 +220,42 @@ The following issues were raised during my mid project meeting with my mentor:
 - The YouTube videos on the tutorials page are in iframe format. Best practise would be to use different code. The iFrames were changed to objects.
 - Additional media element could be added for very small screens, thus making the specific code for these smaller screens more tailored. This was added, also in association with the gap width as detailed above.
 
+The following issues were raised during my final project meeting with my mentor:
+- Links in Firefox does not show. My mentor suggested to add specific text weight to the links in the text. This was added and the links now show correctly in FireFox.
+- The textbox area was not fixed, so the form content could distort the position of the submit button. This was fixed by adding a resize:none css code.
+- The YouTube videos were presenting with a lot of errors after changing it to objects, my mentor suggested that I try to fix it as best I could. This was attempted and the validator does not show errors. I would like to explore codes of this type further in the future to better understand it.
+
 ### W3C Validator
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
 Initial testing:
 - h1 header on index page - W3C suggested to not use the h1 header as it was used in the page already. This was changed to h2 header.
-- iframe instead of css on the tutorials page - W3S suggested to avoid using the ifram code, recomending to use css. As the code is sourced from YouTube, and I wanted to be consistent with the source of this content keeping with the origin of the videos, this was disregarded. This was changed to object.
+- iframe instead of css on the tutorials page - W3S suggested to avoid using the ifram code, recomending to use css. As the code is sourced from YouTube, and I wanted to be consistent with the source of this content keeping with the origin of the videos, this was disregarded. This was changed to object. When the testing was still showing errors, type and data was added to objects, and the bug was resolved.
 
 ![W3C index](/assets/images/readmeimages/w3c_index.png)
 ![W3C projects](/assets/images/readmeimages/w3c_projects.png)
 ![W3C knit along](/assets/images/readmeimages/w3c_knitalong.png)
 ![W3C contact us](/assets/images/readmeimages/w3c_contactsus.png)
+
+Initial tutorial W3C test:
+
 ![W3C tutorials](/assets/images/readmeimages/w3c_tutorials.png)
+
+Final tutorial W3C test:
+
+![W3C tutorials final validator](/assets/images/readmeimages/w3c_tutorials_secondtry.png)
 
 ### Solved Bugs
 The navbar would lose its alignment when on smaller devices, with the knit along link being oushed down to the following line, underneathe the other icons on the right side of the page. This did not make for a good user experience, and looked messy. Once I added a narrower margin in the media element for smaller devices the navigation was alligned on one line on smaller screen.
 
 The responsiveness on very small screens presented issues, as the height on the sections would be too long or not long enough depending on the device. After some testing and discussing it with my mentor, I added a fourth media screen for screens under 400px. This allowed me more flexibility and control over the sections, which were tested in the developer tool on several screen sizes.
 
+The in-text links were not bolded on firefox browsers. The bug was fixed by adding width to the links in paragraphs.
+
+The YouTube videos were initially coded as iFrames, as this was the suggested code from YouTube. The W3S validator sugggested to not use iFrames. Using objects instead was suggested by my mentor, and this was implimeted based on code from slack in reference to YouTube. The credits for this code is listed in the credits section. The bug fix resulted in errors shown in the W3C testing, by adding pixel width, data and types to the object the bug was fixed.
+
 ### Known Bugs
 The project page is repoted to have a slow responsiveness. This is due to not having fixed width on the images. As the page is coded to be responsive by adapting columns from 4 columns to 3 columns to 2 columns, I did not specify width. The bug was not fixed, but could possibly be fixed with a query or more media screens.
-
-The in-text links are not bolded on firefox browsers. A future fix could be to add an alternate menu, or further link attributes. This bug was not fixed, and is showing on firefow browsers.
-
-The YouTube videos were initially coded as iFrames, as this was the suggested code from YouTube. The W3S validator sugggested to not use iFrames. Using objects instead was suggested by my mentor, and this was implimeted based on code from slack in reference to YouTube. The credits for this code is listed in the credits section. The bug fix resulted in errors shown in the W3C testing, this bug was not fixed.
 
 ### Lighthouse
 I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
